@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+build/
+out/
+*.js
+*.js.map
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Bitcoin-related files (e.g., wallet data, private keys)
+multisig_keys.json  # Exclude sensitive key data
+*.wallet
+*.dat
+
+# OS/Editor files
+.DS_Store
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+*.iml
+
+# Package files
+package-lock.json  # Optional: Include if you want to version it, but typically managed by npm
+
+# Test/coverage files
+coverage/
+test-reports/
+
+# macOS-specific
+._*
+
+# Ignore Bitcoin regtest data (if generated locally)
+*.bitcoin/
+
+# Ignore any temporary or build artifacts
+*.tsbuildinfo
